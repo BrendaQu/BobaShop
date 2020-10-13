@@ -1,0 +1,231 @@
+/* Font */
+
+h1 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 90px;
+}
+
+h2 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: 50px;
+    text-align: center;
+}
+h3 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 40px;
+}
+h4 {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+p {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+}
+
+/* Section Style */
+
+#Home {
+    Height: 600px;
+    display: inline block;
+    margin-left: 160px;
+    width: 88%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),url("Images/BobaShop.JPG");
+    /* Photo of shop is of https://www.urbanboba.com/ */
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#AboutUs {
+    Height: 400px;
+    display: inline block;
+    margin-left: 160px;
+    width: 88%;
+    margin-top:20px;
+    background-color:#faefde;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#Menu {
+    Height: 1200px;
+    display: inline block;
+    margin-left: 160px;
+    width: 88%;
+    margin-top:20px;
+    align-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#ContactUs {
+    Height: 680px;
+    display: inline block;
+    margin-left: 160px;
+    width: 88%;
+    margin-top:20px;
+    align-content: center;
+    background-color: #faefde;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* Box Style */
+
+.boxed {
+    align-content: center;
+    border: 1px solid black;
+    height: 400px;
+    padding-left: 5%;
+    padding-right: 5%;
+    resize: both;
+    margin-left: 3%;
+    overflow: auto;
+}
+
+/* Image Style */
+
+.responsive-img {
+    display: block;
+    min-height: 70%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.center-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+
+/* Center */
+
+.center {
+    margin-left: auto;
+    margin-right:auto;
+}
+
+/* Columns and Rows Style */
+.column1 {
+    float: left;
+    width: 30%;
+    padding-top: 2%;
+
+}
+
+.column2 {
+    float: left;
+    width: 45%;
+    margin-right: 5%;
+}
+
+.column-contact {
+    float: left;
+    width: 33%;
+}
+.column-pic {
+    float: left;
+    width: 24%;
+    padding: 1px;
+}
+
+.row {
+    margin-left: 3%;
+}
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Icons */
+
+.fa {
+    padding: 5px;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  i {
+      text-align: center;
+  }
+
+/* Table Style */
+
+  #Menu-Style {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    width: 60%;
+  }
+
+  #Menu-Style th {
+    font-size: 17px;
+    border: 1px solid peachpuff;
+    background-color: peachpuff;
+    padding: 8px;
+    text-align: left;
+  }
+
+  td {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;    
+  }
+
+/* Side Bar Menu */
+
+.sidenav {
+    height: 100%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: black;
+    overflow-x: hidden;
+    padding-top: 25px;
+}
+
+.sidenav a {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    display: block;
+}
+
+.sidenav a:hover {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    color: grey;
+}
+
+/* Misc. */
+
+body{
+    background-color: #fffbf5;
+}
+Html {
+    scroll-behavior: smooth;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
